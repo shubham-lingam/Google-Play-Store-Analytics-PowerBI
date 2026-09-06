@@ -1,20 +1,25 @@
-# 📱 Google Play Store Analytics Dashboard
+# GOOGLE PLAY STORE ANALYTICS DASHBOARD
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-02569B?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge)
-![Data Analytics](https://img.shields.io/badge/Data%20Analytics-4285F4?style=for-the-badge)
-![Dashboard](https://img.shields.io/badge/Dashboard-FF6F00?style=for-the-badge)
+**Power BI • DAX • Power Query • Data Analytics • Business Intelligence**
 
 ---
 
-# 📌 Project Overview
+# PROJECT OVERVIEW
 
 This project presents an interactive **Power BI Dashboard** built using the Google Play Store dataset.
 
-The dashboard provides valuable insights into app performance, user engagement, pricing strategies, installs, ratings, categories, and Android version compatibility.
+The dashboard provides valuable insights into:
 
-This project demonstrates the complete Data Analytics workflow:
+- App performance
+- User engagement
+- Ratings and reviews
+- Pricing strategies
+- Application installs
+- Category performance
+- Content ratings
+- Android version compatibility
+
+This project demonstrates a complete Data Analytics workflow, including:
 
 - Data Cleaning
 - Data Transformation
@@ -25,34 +30,37 @@ This project demonstrates the complete Data Analytics workflow:
 
 ---
 
-# 🎯 Project Objectives
+# PROJECT OBJECTIVES
+
+The primary objectives of this project are:
 
 - Analyze Google Play Store applications
 - Understand user ratings and reviews
-- Compare Free vs Paid applications
+- Compare Free and Paid applications
 - Analyze installs and pricing
 - Study category-wise performance
+- Explore Android version compatibility
 - Build an interactive dashboard for business decision-making
 
 ---
 
-# 🛠 Tools & Technologies
+# TOOLS AND TECHNOLOGIES
 
 | Tool | Purpose |
 |------|---------|
 | Power BI Desktop | Dashboard Development |
-| Power Query | Data Cleaning |
-| DAX | Measures & KPIs |
+| Power Query | Data Cleaning and Transformation |
+| DAX | Measures and KPI Calculations |
 | CSV Dataset | Data Source |
 | GitHub | Project Hosting |
 
 ---
 
-# 📂 Dataset Information
+# DATASET INFORMATION
 
-Dataset: Google Play Store Dataset
+**Dataset:** Google Play Store Dataset
 
-Features include:
+The dataset includes important application attributes such as:
 
 - App
 - Category
@@ -69,75 +77,121 @@ Features include:
 
 ---
 
-# 📊 Dashboard Pages
+# DASHBOARD PAGES
 
-## Page 1 – Executive Overview
+The Power BI dashboard consists of multiple pages designed to analyze different aspects of Google Play Store applications.
 
-![Page1](Images/Dashboard_Page1.png)
+## PAGE 1 – EXECUTIVE OVERVIEW
 
----
+Provides a high-level overview of the Google Play Store ecosystem using key performance indicators and summary visualizations.
 
-## Page 2 – Ratings & Reviews Analysis
+The page focuses on:
 
-![Page2](Images/Dashboard_Page2.png)
-
----
-
-## Page 3 – Installs & Pricing Analysis
-
-![Page3](Images/Dashboard_Page3.png)
-
----
-
-## Page 4 – Category & Platform Insights
-
-![Page4](Images/Dashboard_Page4.png)
+- Overall application performance
+- Total applications
+- Ratings
+- Reviews
+- Installs
+- Category insights
 
 ---
 
-## Page 5 – About This Dashboard
+## PAGE 2 – RATINGS AND REVIEWS ANALYSIS
 
-![Page5](Images/Dashboard_Page5.png)
+Analyzes user engagement and application quality through:
+
+- Application ratings
+- Review distribution
+- Rating trends
+- Highly rated applications
+- User engagement patterns
 
 ---
 
-## Page 6 – Conclusion & Business Insights
+## PAGE 3 – INSTALLS AND PRICING ANALYSIS
 
-![Page6](Images/Dashboard_Page6.png)
+Focuses on application installs and pricing strategies.
+
+The analysis includes:
+
+- Free versus Paid applications
+- Install distribution
+- Pricing trends
+- Relationship between price and installs
+- High-install applications
 
 ---
 
-# 📈 Key Business Insights
+## PAGE 4 – CATEGORY AND PLATFORM INSIGHTS
 
-- The majority of Google Play Store apps are free.
+Analyzes application performance across categories and Android platforms.
+
+The analysis includes:
+
+- Category-wise applications
+- Category-wise installs
+- Content ratings
+- Android version compatibility
+- Genre performance
+
+---
+
+## PAGE 5 – ABOUT THIS DASHBOARD
+
+Provides information about:
+
+- Project objectives
+- Dataset
+- Tools and technologies
+- Dashboard development process
+- Analytical approach
+
+---
+
+## PAGE 6 – CONCLUSION AND BUSINESS INSIGHTS
+
+Summarizes the key findings and business insights generated from the analysis.
+
+---
+
+# KEY BUSINESS INSIGHTS
+
+The analysis generated several important insights:
+
+- The majority of Google Play Store applications are free.
 - Family and Game categories contribute the highest number of installs.
 - Higher app prices do not necessarily result in higher installs.
-- Ratings are concentrated between 4.0 and 4.5.
-- Most apps target the "Everyone" content rating.
-- Only a small percentage of apps are paid.
-- A small number of apps account for a significant share of total installs.
+- Ratings are concentrated between **4.0 and 4.5**.
+- Most applications target the **Everyone** content rating.
+- Only a small percentage of applications are paid.
+- A small number of applications account for a significant share of total installs.
 - Android version support is concentrated around a few major versions.
 
 ---
 
-# 🧹 Data Cleaning
+# DATA CLEANING AND TRANSFORMATION
 
-The dataset was cleaned using Power Query by:
+The dataset was cleaned and transformed using **Power Query**.
 
-- Removing duplicates
+The data preparation process included:
+
+- Removing duplicate records
 - Handling missing values
 - Replacing NaN values
-- Converting data types
-- Cleaning Price column
-- Cleaning Installs column
+- Converting incorrect data types
+- Cleaning the Price column
+- Cleaning the Installs column
 - Removing corrupted records
+- Preparing data for analysis
 - Creating calculated measures
 
 ---
 
-# ✨ Dashboard Features
+# DASHBOARD FEATURES
 
-- Interactive slicers
+The dashboard includes several interactive and professional features:
+
+- Interactive Slicers
 - KPI Cards
 - Donut Charts
 - Bar Charts
@@ -145,15 +199,38 @@ The dataset was cleaned using Power Query by:
 - Stacked Charts
 - Navigation Buttons
 - Professional Theme
+- Interactive Filtering
 - Business Storytelling
 
 ---
 
-# 📁 Project Structure
+# PROJECT WORKFLOW
 
+```text
+Raw Dataset
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Data Transformation
+      │
+      ▼
+Data Modeling
+      │
+      ▼
+DAX Measures and KPIs
+      │
+      ▼
+Dashboard Development
+      │
+      ▼
+Business Insights
+```
+---
+# PROJECT STRUCTURE
 ```
 Google-Play-Store-Analytics-PowerBI
-
 │
 ├── Dashboard
 │   └── Google Play Store Analytics.pbix
@@ -161,45 +238,88 @@ Google-Play-Store-Analytics-PowerBI
 ├── Dataset
 │   └── googleplaystore.csv
 │
-├── Images
-│   ├── Dashboard_Page1.png
-│   ├── Dashboard_Page2.png
-│   ├── Dashboard_Page3.png
-│   ├── Dashboard_Page4.png
-│   ├── Dashboard_Page5.png
-│   └── Dashboard_Page6.png
-│
 └── README.md
 ```
-
 ---
+# HOW TO USE
 
-# 🚀 How to Use
+## Follow these steps to explore the dashboard:
 
-1. Download the repository.
-2. Open the `.pbix` file in Microsoft Power BI Desktop.
-3. Refresh the dataset if required.
-4. Explore the interactive dashboard.
-
+1.Download or clone the repository.
+2.Open the .pbix file using Microsoft Power BI Desktop.
+3.Refresh the dataset if required.
+4.Explore the different dashboard pages.
+5.Use the interactive filters and slicers to analyze the data.
 ---
+# SKILLS DEMONSTRATED
 
-# 👨‍💻 Author
+## This project demonstrates the following skills:
+
+* Power BI
+* Power Query
+* DAX
+* Data Cleaning
+* Data Transformation
+* Data Modeling
+* KPI Development
+* Data Visualization
+* Dashboard Design
+* Business Intelligence
+* Data Storytelling
+---
+# LEARNING OUTCOMES
+
+## Through this project, I strengthened my skills in:
+
+* Power BI Dashboard Development
+* Data Cleaning and Transformation
+* Power Query
+* DAX Calculations
+* KPI Development
+* Interactive Reporting
+* Data Visualization
+* Business Problem Solving
+* Business Intelligence
+---
+# ABOUT THIS PROJECT
+
+This project was developed as part of my Data Analytics Portfolio to demonstrate practical Power BI dashboard development and end-to-end data analysis skills.
+
+## It showcases the ability to:
+
+* Transform raw data into structured analytical data
+* Clean and prepare datasets using Power Query
+* Create DAX measures and KPIs
+* Design interactive Power BI dashboards
+* Analyze application performance and user behavior
+* Generate actionable business insights
+* Present findings through effective data storytelling
+---
+# AUTHOR
 
 ## L Shubham
 
-🔗 LinkedIn: https://www.linkedin.com/in/shubham-lingam
+## LinkedIn
 
-📧 Email: shubham.lingamm@gmail.com
+https://www.linkedin.com/in/shubham-lingam
 
-Skills
+## Email
 
-- Power BI
-- SQL
-- Excel
-- Python
-- DAX
-- Power Query
+shubham.lingamm@gmail.com
 
+## GitHub
+
+https://github.com/shubham-lingam
+
+## ADDITIONAL SKILLS
+
+* Power BI
+* SQL
+* Excel
+* Python
+* DAX
+* Power Query
 ---
+# SUPPORT
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+If you found this project helpful or interesting, consider giving the repository a star.
